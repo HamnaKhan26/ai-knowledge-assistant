@@ -84,6 +84,3 @@ python -m uvicorn backend.app:app --reload
 The server will start at http://127.0.0.1:8000
 
 
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/a9489384-629b-4fed-b9ae-a57136e85503" />
-
-
