@@ -52,7 +52,7 @@ This project demonstrates how to build a **production-ready AI backend** that co
 
 ## ⚙️ Setup Instructions
 
-### Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/ai-knowledge-assistant.git
@@ -64,5 +64,26 @@ Run this command in the project root directory:
 
 ```bash
 python -m venv venv
+
+## Activate Virtual Environment
+
+### Windows (CMD / PowerShell)
+```bash
+venv\Scripts\activate
+
+## Install Dependencies
+```bash
+pip install fastapi uvicorn "langchain<0.1.80" langchain-community chromadb sentence-transformers
+
+## Install & Run Ollama
+```bash
+ollama run mistral
+
+## Run the Backend Server
+```bash
+python -m uvicorn backend.app:app --reload
+
+The server will start at http://127.0.0.1:8000
+
 
 
