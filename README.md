@@ -52,8 +52,6 @@ This project demonstrates how to build a **production-ready AI backend** that co
 
 ## ⚙️ Setup Instructions
 
-## Clone the Repository
-
 ```bash
 git clone https://github.com/<your-username>/ai-knowledge-assistant.git
 cd ai-knowledge-assistant
@@ -67,7 +65,7 @@ python -m venv venv
 
 ## Activate Virtual Environment
 
-### Windows (CMD / PowerShell)
+## Windows (CMD / PowerShell)
 ```bash
 venv\Scripts\activate
 
