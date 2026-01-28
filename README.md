@@ -83,5 +83,8 @@ python -m uvicorn backend.app:app --reload
 
 The server will start at http://127.0.0.1:8000
 
+## Postman Result
+<img width="1357" height="755" alt="Screenshot 2026-01-26 141123" src="https://github.com/user-attachments/assets/ba0cdd1b-2836-49d7-b5b3-89b79f75a8e1" />
+
 
 
