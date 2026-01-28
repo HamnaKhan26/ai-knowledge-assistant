@@ -8,25 +8,24 @@ This project demonstrates how to build a **production-ready AI backend** that co
 
 ## 🚀 Features
 
-- 🔍 **Semantic Search with Embeddings**
+- **Semantic Search with Embeddings**
   - Converts documents into vector embeddings using `sentence-transformers`
   - Stores and retrieves vectors using **ChromaDB**
 
-- 🧠 **Retrieval-Augmented Generation (RAG)**
+- **Retrieval-Augmented Generation (RAG)**
   - Retrieves relevant documents before generating answers
   - Reduces hallucinations by grounding responses in real data
 
-- 🧪 **Few-Shot Prompting**
+- **Few-Shot Prompting**
   - Enforces structured JSON output using example-based prompting
   - Improves consistency and reliability of responses
 
-- ⚡ **FastAPI Backend**
+- **FastAPI Backend**
   - Clean REST API for querying the assistant
   - Easily extendable for frontend or integrations
 
-- 🧩 **Local LLM (Free)**
+- **Local LLM (Free)**
   - Uses **Ollama (Mistral)** for local inference
-  - No paid API keys required
 
 ---
 
@@ -42,5 +41,28 @@ This project demonstrates how to build a **production-ready AI backend** that co
 | Language | Python |
 
 ---
+
+## ✅ Prerequisites
+
+- Python 3.10 – 3.12 installed
+- Git
+- Ollama installed
+
+---
+
+## ⚙️ Setup Instructions
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/<your-username>/ai-knowledge-assistant.git
+cd ai-knowledge-assistant
+
+## Create Virtual Environment
+
+Run this command in the project root directory:
+
+```bash
+python -m venv venv
 
 
